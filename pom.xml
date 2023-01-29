@@ -4,7 +4,7 @@
 
     <groupId>org.teamapps</groupId>
     <artifactId>teamapps-message-protocol-maven-plugin</artifactId>
-    <version>0.4-SNAPSHOT</version>
+    <version>0.4</version>
     <packaging>maven-plugin</packaging>
 
     <properties>
@@ -52,7 +52,7 @@
         <url>https://github.com/teamapps-org/teamapps-protocol-schema-maven-plugin</url>
         <connection>scm:git:git@github.com:teamapps-org/teamapps-message-protocol-maven-plugin</connection>
         <developerConnection>scm:git:git@github.com:teamapps-org/teamapps-message-protocol-maven-plugin</developerConnection>
-        <tag>HEAD</tag>
+        <tag>v0.4</tag>
     </scm>
 
 
