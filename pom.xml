@@ -8,8 +8,8 @@
     <packaging>maven-plugin</packaging>
 
     <properties>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
+        <maven.compiler.release>23</maven.compiler.release>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <name>Maven Plugin for TeamApps Message Protocol</name>
@@ -188,7 +188,7 @@
                             </execution>
                         </executions>
                         <configuration>
-                            <projectName>TeamApps Message Protocol Maven Plugin</projectName>
+                            <projectName>${project.name}</projectName>
                             <organizationName>TeamApps.org</organizationName>
                             <inceptionYear>2022</inceptionYear>
                             <licenseName>apache_v2</licenseName>
@@ -209,6 +209,7 @@
                                 <exclude>**/*.json</exclude>
                                 <exclude>**/*.svg</exclude>
                                 <exclude>**/*.txt</exclude>
+                                <exclude>**/*.xml</exclude>
                             </excludes>
                         </configuration>
                     </plugin>
